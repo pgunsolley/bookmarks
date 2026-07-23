@@ -16,17 +16,8 @@ return {
     create_table("bookmarks", {
       { "id",          types.id },
       { "user_id",     types.integer },
-      { "folder_id",   types.integer({ null = true }) },
       { "name",        types.varchar({ null = true }) },
       { "location",    types.varchar },
-      { "created_at",  types.timestamp },
-      { "modified_at", types.timestamp },
-    })
-
-    create_table("folders", {
-      { "id",          types.id },
-      { "user_id",     types.integer },
-      { "name",        types.varchar },
       { "created_at",  types.timestamp },
       { "modified_at", types.timestamp },
     })
