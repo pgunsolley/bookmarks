@@ -15,7 +15,8 @@ dependencies = {
   "lua ~> 5.1",
   "lapis == 1.18.0",
   "luasql-mysql",
-  "lua-resty-jwt ~> 0.3.2"
+  "lua-resty-jwt ~> 0.3.2",
+  "lua-dotenv ~> 1.1"
 }
 
 build = {
